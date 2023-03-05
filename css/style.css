@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
+
+
 :root {
     --color: #d86f2f;
+    
 }
 
 * {
@@ -30,13 +33,13 @@ html::-webkit-scrollbar {
     width: 1.4rem;
 }
 
-html::-webkit-scrollbar-track {
+/* html::-webkit-scrollbar-track {
     background: #222;
 }
 
 html::-webkit-scrollbar-thumb {
     background: var(--color);
-}
+} */
 
 body {
     background: #111;
@@ -49,6 +52,11 @@ section {
     padding: 1rem;
 }
  
+
+.normal-text {
+    text-transform: none;
+}
+
 .btn {
     padding: .7rem 3rem;
     background-color: #333;
@@ -95,6 +103,7 @@ header {
     background: #1a1a1a;
 }
 
+
 header .user img{
     height: 17rem;
     width: 17rem;
@@ -113,6 +122,7 @@ header .user .post {
     font-size: 2rem;
     color:#eee;
 }
+
 
 header .navbar {
     width: 100%;
@@ -194,6 +204,7 @@ header .navbar ul li a:hover {
     color: var(--color);
     padding: 1rem 0;
     font-weight: normal;
+    text-transform: none;
 }
 
 .about .row .info h3 span {
@@ -383,7 +394,24 @@ header .navbar ul li a:hover {
 
 }
 
+header .quicky {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
 
+header .quicky .social {
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+header .quicky .social i {
+    color: var(--color);
+    border: 4rem;
+    border-radius: 50%;
+    border-color: var(--color);
+}
 
 
 
