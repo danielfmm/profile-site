@@ -254,6 +254,7 @@ header .navbar ul li a:hover {
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
+    align-self: flex-start;
 }
 
 .education .box-container .box span {
@@ -289,6 +290,24 @@ header .navbar ul li a:hover {
     color: #fff;
     background: var(--color);
 }
+
+.education .box-container .box li {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 0.1rem 0;
+    list-style: none;
+}
+
+
+.education .box-container .box li::before {
+    content: "\2023";
+    color: var(--color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 
 .portfolio .box-container {
     display: flex;
@@ -415,9 +434,6 @@ header .quicky .social i {
 
 
 
-
-
-
 @media (max-width:1200px){
     html {
         font-size: 40%;
@@ -425,7 +441,6 @@ header .quicky .social i {
 
     .home {
         padding: 1rem 4rem;
-
     }
 }
 
