@@ -6,7 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Ferraz Portfolio</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SJQ0HSGJNJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-SJQ0HSGJNJ');
+</script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -37,9 +45,9 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Início</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#about">Sobre Mim</a></li>
                 <li><a href="#education">Formação</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
@@ -62,6 +70,39 @@
 
     </section>
 
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"><span>Meus</span> Projetos</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <a href="https://drdiegoguimaraes.com.br/" target="_blank"><img src="imgs/drdiego.jpg"
+                        alt="Site do Dr. Diego"></a>
+            </div>
+
+            <div class="box">
+                <a href="https://danielferraz.dev/clientes/estorini" target="_blank"><img src="imgs/estorini.JPG"
+                        alt="Centro de Beleza Estorini"></a>
+            </div>
+
+            <div class="box">
+                <a href="https://danielferraz.dev/" target="_blank">
+                    <img src="imgs/danielferraz.JPG" alt="Profile Daniel Ferraz">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://danielferraz.dev/clientes/devswannabe">
+                    <img src="imgs/devswannabe.JPG" alt="Site em desenvolvimento do grupo devswannabe">
+                </a>
+            </div>
+
+            <div class="box">
+              <a href="https://danielferraz.dev/apps/calculadora-de-NDPCAL/">
+              <img src="./img/appNDPCAL.PNG" alt="Calculadora de NDPCal" />
+            </a>
+            </div>
+
+    </section>
 
     <section class="about" id="about">
 
@@ -237,60 +278,16 @@
 
     </section>
 
-    <section class="portfolio" id="portfolio">
-
-        <h1 class="heading"><span>Meus</span> Projetos</h1>
-        <div class="box-container">
-
-            <div class="box">
-                <a href="https://drdiegoguimaraes.com.br/" target="_blank"><img src="imgs/drdiego.jpg"
-                        alt="Site do Dr. Diego"></a>
-            </div>
-
-            <div class="box">
-                <a href="https://danielferraz.dev/clientes/estorini" target="_blank"><img src="imgs/estorini.JPG"
-                        alt="Centro de Beleza Estorini"></a>
-            </div>
-
-            <div class="box">
-                <a href="https://danielferraz.dev/" target="_blank">
-                    <img src="imgs/danielferraz.JPG" alt="Profile Daniel Ferraz">
-                </a>
-            </div>
-            <div class="box">
-                <a href="https://danielferraz.dev/clientes/devswannabe">
-                    <img src="imgs/devswannabe.JPG" alt="Site em desenvolvimento do grupo devswannabe">
-                </a>
-            </div>
-
-            <div class="box">
-                <img src="imgs/screen.jpg" alt="">
-            </div>
-
-    </section>
+    
 
     <section class="contact" id="contact">
         <h1 class="heading"><span>Vamos</span> Conversar?</h1>
-        <div class="row">
-            <div class="content">
-
-                <h3 class="title">Contatos</h3>
-                <div class="info">
-                    <h3><i class="fas fa-envelope"></i> contato@danielferraz.dev</h3>
-                    <h3><i class="fas fa-phone"></i> (31) 9 9216-2350 </h3>
-                    <h3><i class="fas fa-phone"></i> (31) 9 9742-3164</h3>
-                    <h3><i class="fas fa-map-marker-alt"></i>Rua Domingos Vieira 273, Sala 307 - Santa Efigênia, Belo
-                        Horizonte, Minas Gerais</h3>
-                </div>
-            </div>
-            <form action="">
-                <input type="text" class="box" placeholder="Nome">
-                <input type="email" class="box" placeholder="E-mail">
-                <input type="text" class="box" placeholder="projeto">
-                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="mensagem"></textarea>
-                <button type="submit" class="btn">Enviar <i class="fas fa-paper-plane"></i></button>
-            </form>
-        </div>
+        <div class="container">
+            <a href="5531992162350"><button id="whatsapp-button">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </button></a>
+          </div>
+      
     </section>
 
     <a href="#home" class="top">

@@ -19,6 +19,7 @@
     transition: all .2s linear;
 }
 
+
 *::selection {
     background: var(--color);
     color: #333;
@@ -432,6 +433,34 @@ header .quicky .social i {
     border-color: var(--color);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
+  }
+  
+  #whatsapp-button {
+    background-color: #d86f2f;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px #b35824;
+    transition: all 0.2s;
+  }
+  
+  #whatsapp-button i {
+    margin-right: 20px;
+  }
+  
+  #whatsapp-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
+  
 
 
 @media (max-width:1200px){
